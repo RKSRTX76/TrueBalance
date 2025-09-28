@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.TrueBalance" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.TrueBalance.Splash" parent="Theme.SplashScreen">
+        <!-- Background color -->
+        <item name="windowSplashScreenBackground">#FFFFFF</item>
+        <!-- Your app logo -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo</item>
+        <!-- Animation duration -->
+        <item name="windowSplashScreenAnimationDuration">500</item>
+        <!-- Optional: remove status bar until transition -->
+        <item name="postSplashScreenTheme">@style/Theme.TrueBalance</item>
+    </style>
+</resources>
