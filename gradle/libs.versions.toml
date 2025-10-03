@@ -1,6 +1,6 @@
 [versions]
 accompanistSystemuicontroller = "0.34.0"
-agp = "8.10.0"
+agp = "8.13.0"
 coreSplashscreen = "1.0.1"
 datastorePreferences = "1.1.4"
 hiltAndroid = "2.56.1"
@@ -18,6 +18,7 @@ navigationCompose = "2.9.4"
 composeBom = "2024.09.00"
 roomKtx = "2.7.1"
 timber = "5.0.1"
+ycharts = "2.1.0"
 
 [libraries]
 accompanist-systemuicontroller = { module = "com.google.accompanist:accompanist-systemuicontroller", version.ref = "accompanistSystemuicontroller" }
@@ -34,6 +35,7 @@ androidx-room-paging = { module = "androidx.room:room-paging", version.ref = "ro
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hiltAndroid" }
 hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "hiltAndroid" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
+ycharts = { module = "co.yml:ycharts", version.ref = "ycharts" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
 kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinxSerializationJson" }

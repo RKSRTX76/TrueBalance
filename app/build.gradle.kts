@@ -42,7 +42,7 @@ android {
 }
 
 dependencies {
-    implementation("co.yml:ycharts:2.1.0")
+    implementation(libs.ycharts)
 
     // Navigation
     implementation(libs.androidx.navigation.compose)

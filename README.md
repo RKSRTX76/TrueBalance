@@ -4,7 +4,7 @@ TrueBalance is a simple and intuitive **Expense Manager** app built with **Andro
 It helps you keep track of your daily income and expenses, manage categories, and maintain a clear view of your financial habits.  
 
 ## ✨ Features
-- Add and deleteexpenses & incomes  
+- Add and delete expenses & incomes  
 - Categorize transactions for better insights  
 - View balance summary at a glance  
 - Clean and modern UI with Jetpack Compose  

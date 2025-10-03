@@ -122,7 +122,6 @@ fun HomeScreen(
                 viewModel = viewModel,
                 navController = navController,
             )
-
         }
     }
 }
